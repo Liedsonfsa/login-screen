@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tela de Login</title>
+    <script src="form.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+        <section class="imagem">
+            <img src="imagens/img.avif">
+        </section>
+        <section class="formulario">
+            <h1>Login</h1>
+            <div class="preencher">
+                <form autocomplete="on" method="post" id="form">
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="seu email" autocomplete="email">
+                    </div>
+                    <div class="senha">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" placeholder="sua senha" autocomplete="current-password" autofocus>
+                    </div>
+                    <div class="button">
+                        <button class="btnSalvar">Enviar</button>
+                    </div>
+            </div>
+
+            <hr>
+
+            <div class="outros">
+                <P>Logar com</P>
+                <a href="#"><img src="imagens/fcb.png" alt="facebook" class="outers"></a>
+                <a href="#"><img src="imagens/google.png" alt="google" class="outers"></a>
+                <a href="#"><img src="imagens/linke.png" alt="linkedin" class="outers"></a>
+            </div>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>
