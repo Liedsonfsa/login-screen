@@ -154,8 +154,8 @@ a{
     }
 
     .container{
-        margin: auto;
-        height: 550px;
+        height: 50%;
+        width: 70%;
 
     }
 
