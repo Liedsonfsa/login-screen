@@ -147,6 +147,38 @@ a{
     
 }
 
+@media screen and (max-width: 678px){
+
+    .imagem img{
+        display: none;
+    }
+
+    .container{
+        margin: auto;
+        height: 550px;
+
+    }
+
+    .formulario{
+        width: 400px;
+    }
+
+    #form{
+        margin: auto;
+    }
+    .outros{
+        margin: 20px;
+    }
+
+    .outros a{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    
+}
+
 
 
 
